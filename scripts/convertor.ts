@@ -31,7 +31,7 @@ for (const folder of outlineFolders) {
       const file_res: BunFile = Bun.file(path);
       const text = await file_res.text();
       const marko_js_string = convertSvgToMarko(text);
-      const output_path = `${baseOutlineOutputAsMarkoFolder}/${folder}/${file}`;
+      const output_path = `./components/${file.replace(".svg", "")}-outline.marko`;
       Bun.write(output_path.replace(".svg", ".marko"), marko_js_string);
     }
   }
@@ -47,8 +47,8 @@ for (const folder of solidFolders) {
       const file_res: BunFile = Bun.file(path);
       const text = await file_res.text();
       const marko_js_string = convertSvgToMarko(text);
-      const output_path = `${baseSolidOutputAsMarkoFolder2}/${folder}/${file}`;
-      Bun.write(output_path.replace(".svg", ".marko"), marko_js_string);
+      const output_path = `./components/${file.replace(".svg", "")}-solid.marko`;
+      Bun.write(output_path, marko_js_string);
     }
   }
 }

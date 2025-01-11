@@ -1,39 +1,16 @@
 {
   "name": "flowbite-icons-marko",
-  "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Flowbite icons now available for marko js",
   "files": [
-    "src/*",
+    "components/*",
     "marko.json"
   ],
   "peerDependencies": {
     "typescript": "^5.0.0",
     "marko": "^4.12.4 || ^5"
-  },
-  "exports": {
-    "./outline/arrows/*": "./outline/arrows/*.marko",
-    "./outline/e-commerce/*": "./outline/e-commerce/*.marko",
-    "./outline/education/*": "./outline/education/*.marko",
-    "./outline/emoji/*": "./outline/emoji/*.marko",
-    "./outline/files-folders/*": "./outline/files-folders/*.marko",
-    "./outline/general/*": "./outline/general/*.marko",
-    "./outline/media/*": "./outline/media/*.marko",
-    "./outline/text/*": "./outline/text/*.marko",
-    "./outline/user/*": "./outline/user/*.marko",
-    "./outline/weather/*": "./outline/weather/*.marko",
-    "./solid/arrows/*": "./solid/arrows/*.marko",
-    "./solid/e-commerce/*": "./solid/e-commerce/*.marko",
-    "./solid/education/*": "./solid/education/*.marko",
-    "./solid/emoji/*": "./solid/emoji/*.marko",
-    "./solid/files-folders/*": "./solid/files-folders/*.marko",
-    "./solid/general/*": "./solid/general/*.marko",
-    "./solid/media/*": "./solid/media/*.marko",
-    "./solid/text/*": "./solid/text/*.marko",
-    "./solid/user/*": "./solid/user/*.marko",
-    "./solid/weather/*": "./solid/weather/*.marko"
   }
 }
