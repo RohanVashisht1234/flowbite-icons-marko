@@ -4,7 +4,7 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Flowbite icons now available for marko js",
   "files": [
     "src/*",
