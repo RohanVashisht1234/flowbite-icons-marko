@@ -1,15 +1,13 @@
 # flowbite-icons-marko
 
-To install dependencies:
+You can now use Flowbite icons inside marko js!
 
-```bash
-bun install
+To use this just do the following steps:
+
+```js
+npm i flowbite-icons-marko@latest
 ```
 
-To run:
+The use it as normal component imports:
 
-```bash
-bun run n
-```
 
-This project was created using `bun init` in bun v1.1.42. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
