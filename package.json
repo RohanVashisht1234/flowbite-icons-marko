@@ -1,0 +1,14 @@
+{
+  "name": "flowbite-icons-marko",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "files": [
+    "src/*",
+    "marko.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
