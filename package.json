@@ -1,9 +1,11 @@
 {
   "name": "flowbite-icons-marko",
   "type": "module",
+  "private":"false",
   "devDependencies": {
     "@types/bun": "latest"
   },
+  "description": "Flowbite icons now available for marko js",
   "files": [
     "src/*",
     "marko.json"
